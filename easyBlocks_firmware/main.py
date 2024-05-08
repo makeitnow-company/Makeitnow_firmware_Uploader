@@ -2,8 +2,10 @@ from Makeitnow_function import mPrint
 import sys
 import utime
 
+for count in range(100):
+    utime.sleep_ms(5)
+
 mPrint("1.0.0",dataType = "version")
-utime.sleep(0.2)
 
 try:
     import makeitnow

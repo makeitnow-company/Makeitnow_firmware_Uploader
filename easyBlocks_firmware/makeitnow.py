@@ -10,6 +10,7 @@ from neopixel import NeoPixel
 neoled23 = NeoPixel(Pin(23), 25)
 neoled23.fill((0,0,0))
 neoled23.write()
+utime.sleep(0.5)
 
 p2 = Pin(2, Pin.OUT)
 
