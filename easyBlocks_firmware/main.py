@@ -2,8 +2,8 @@ from Makeitnow_function import mPrint
 import sys
 import utime
 
-mPrint("1.2.0",dataType = "version")
-utime.sleep(0.2)
+mPrint("1.2.1",dataType = "version")
+utime.sleep(0.25)
 
 try:
     import makeitnow
