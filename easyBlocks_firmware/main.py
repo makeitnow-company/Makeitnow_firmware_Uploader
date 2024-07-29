@@ -3,7 +3,7 @@ import sys
 import utime
 
 mPrint("1.2.1",dataType = "version")
-utime.sleep(0.25)
+utime.sleep(0.5)
 
 try:
     import makeitnow
