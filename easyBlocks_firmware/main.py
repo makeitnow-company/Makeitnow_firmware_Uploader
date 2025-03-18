@@ -2,7 +2,7 @@ from Makeitnow_function import mPrint
 import sys
 import utime
 
-mPrint("1.4.0",dataType = "version")
+mPrint("1.4.1",dataType = "version")
 utime.sleep(0.5)
 
 try:
